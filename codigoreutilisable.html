@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title >
+</head>
+<body>
+    <header>
+        <h1>Bienvenido al sitio web de los mejores caballos</h1>
+    </header>
+    <nav>
+        <a href="carpeta.html">Inicio</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <main>
+    
+        <h2>Página de Inicio</h2>
+        <p></p>
+    </main>
+    <footer>
+        
+    </footer>
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d4d4d4fe;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #22835a;
+            color: #def10d;
+            padding: 10px;
+            text-align: center;
+            margin-top: -40%;
+            position:absolute;
+            padding-left: 70vh; padding-right: 70vh;
+            
+        }
+        nav {
+            margin: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1em;
+            color: #1f252e;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 1em;
+            text-align: center;
+        }
+        footer {
+            background-color: #0c0c0c;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+        <div class="form-container">
+        <h2>Formulario de Entrada</h2>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <label for="first-name">Nombre:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Apellido:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Edad:</label>
+                <input type="number" id="age" name="age" min="0" max="120" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+<style>
+     body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    
+    }
+
+   
+    
+    .form-container {
+        background-color: #9d7d7d;
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 10%;
+    }
+    .form-container h2 {
+        margin-top: 0;
+    }
+    .form-group {
+        margin-bottom: 1em;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .form-group textarea {
+        resize: vertical;
+    }
+    .form-group input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 1em;
+    }
+    .form-group input[type="submit"]:hover {
+        background-color: #555;
+    }
+</style>
+   
+
+    
+</body>
+</html>

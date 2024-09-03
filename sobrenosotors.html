@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> caballos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #beb2b2;
+            color: #252121;
+        }
+        header {
+            background-color: #00b4e0;
+            color: #e90000;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #030303;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #about, #services, #team, #testimonials, #contact {
+            padding: 20px;
+            background: #ffffff;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #about img, #team img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .team-member {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+        }
+        .testimonial {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #4c9eaf;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Esquinos Finos </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#team">Equipo</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <img src="empresa.jpg" alt="Imagen de la Empresa">
+            <p>[Nombre de la Empresa] se dedica a [descripción breve de la actividad principal de la empresa]. Con años de experiencia, ofrecemos los mejores servicios en [campo o industria].</p>
+        </section>
+
+        <section id="services">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Servicio 1: Descripción breve del servicio 1.</li>
+                <li>Servicio 2: Descripción breve del servicio 2.</li>
+                <li>Servicio 3: Descripción breve del servicio 3.</li>
+                <li>Servicio 4: Descripción breve del servicio 4.</li>
+            </ul>
+        </section>
+
+        <section id="team">
+            <h2>Conoce a Nuestro Equipo</h2>
+            <div class="team-member">
+                <img src="equipo1.jpg" alt="Miembro del Equipo 1">
+                <h3>Nombre del Miembro 1</h3>
+                <p>Puesto del Miembro 1</p>
+            </div>
+            <div class="team-member">
+                <img src="equipo2.jpg" alt="Miembro del Equipo 2">
+                <h3>Nombre del Miembro 2</h3>
+                <p>Puesto del Miembro 2</p>
+            </div>
+            <div class="team-member">
+                <img src="equipo3.jpg" alt="Miembro del Equipo 3">
+                <h3>Nombre del Miembro 3</h3>
+                <p>Puesto del Miembro 3</p>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonios</h2>
+            <div class="testimonial">
+                <p>"[La Empresa] ha sido increíble en cada paso del camino. Altamente recomendada!"</p>
+                <strong>- Cliente Satisfecho</strong>
+            </div>
+            <div class="testimonial">
+                <p>"El equipo de [Nombre de la Empresa] es profesional y muy atento."</p>
+                <strong>- Otro Cliente</strong>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Dirección: Calle de la Empresa, 123, Ciudad</p>
+            <p>Teléfono: +34 123 456 789</p>
+            <p>Email: contacto@empresa.com</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Todos los derechos reservados camilo ojeda.</p>
+    </footer>
+</body>
+</html>

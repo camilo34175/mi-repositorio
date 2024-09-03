@@ -1,0 +1,117 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Google Doodle</title>
+    <style>
+        body {
+            background-color: #1b1b1b;
+            color: #e8eaed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        
+        .google-doodle {
+            margin-bottom: 60px;
+        }
+        .search-container {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .search-box {
+            width: 100%;
+            padding: 10px 15px;
+            border-radius: 84px;
+            border: none;
+            font-size: 16px;
+            box-shadow: 0 9px 8px rgba(79, 240, 5, 0.888);
+            outline: none;
+        }
+        .shortcut-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .shortcut-icons img {
+            margin: 0 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 60%;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .shortcut-icons img:hover {
+            transform: scale(1.1);
+        }
+            footer {
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            width: 100%;
+            font-size: 18px;
+            color: #13e40c;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agrandar Imagen Simple</title>
+        <style>
+            .resize-image {
+                width: 400px; 
+                transition: transform 0.3s ease; 
+                margin-top: -100px;
+            }
+    
+            .resize-image:hover {
+                transform: scale(1.5);
+            }
+        </style>
+    </head>
+    <body>
+        <img src="https://media1.tenor.com/m/zoNS6JqVFCEAAAAC/google-google-games-opening-ceremony.gif" alt="google" class="resize-image">
+
+    
+    <div class="search-container">
+        
+        <input type="text" class="search-box" placeholder="Buscar en Google o escribir una URL">
+      
+    </div>
+
+
+
+    <div class="shortcut-icons">
+        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="Icon 1">
+        <img src="https://cdn-icons-png.flaticon.com/128/4494/4494494.png" alt="Icon 2">
+        <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="Icon 3">
+        <img src="https://cdn-icons-png.flaticon.com/128/174/174872.png" alt="Icon 4">
+        <img src="https://cdn-icons-png.flaticon.com/128/4782/4782345.png" alt="Icon 5">
+        <img src="data:image/png;base64,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" alt=" Icon 6">
+        <img src="https://cdn-icons-png.flaticon.com/128/732/732228.png" alt=" Icon 6">
+    </div>
+    
+    <footer>
+        <p>&copy; Todos los derechos reservados camilo ojeda.</p>
+    </footer>
+
+
+</body>
+</html> 
+
+
